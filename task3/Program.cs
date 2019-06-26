@@ -17,6 +17,7 @@ namespace task3
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Задача №3. (60в). Нахождение u по описанным правилам.");
             double x = Inputs.Double("Введите координату x: ");
             double y = Inputs.Double("Введите координату y: ");
             Console.WriteLine($"u = {Area(x, y)}");
